@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		625C7BF4074B4EB477B999D3 /* Pods_Speak2Translate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A93D8EAD4AF8D2DBF2D313 /* Pods_Speak2Translate.framework */; };
 		DCAFCDE6210722A300C17E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCDE5210722A300C17E2B /* AppDelegate.swift */; };
-		DCAFCDE8210722A300C17E2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCDE7210722A300C17E2B /* ViewController.swift */; };
 		DCAFCDEB210722A300C17E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAFCDE9210722A300C17E2B /* Main.storyboard */; };
 		DCAFCDED210722AA00C17E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAFCDEC210722AA00C17E2B /* Assets.xcassets */; };
 		DCAFCDF0210722AA00C17E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAFCDEE210722AA00C17E2B /* LaunchScreen.storyboard */; };
+		DCAFCDFB2107240E00C17E2B /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCDFA2107240E00C17E2B /* Translator.swift */; };
+		DCAFCDFD2107242D00C17E2B /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCDFC2107242D00C17E2B /* StringExtensions.swift */; };
+		DCAFCDFF2107250900C17E2B /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCDFE2107250900C17E2B /* Language.swift */; };
+		DCAFCE012107252900C17E2B /* TranslationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCE002107252900C17E2B /* TranslationModel.swift */; };
+		DCAFCE042107262800C17E2B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCE032107262800C17E2B /* Secrets.swift */; };
+		DCAFCE062107272100C17E2B /* InputLanguageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCE052107272100C17E2B /* InputLanguageTVC.swift */; };
+		DCAFCE082107276400C17E2B /* OutputLanguageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCE072107276400C17E2B /* OutputLanguageTVC.swift */; };
+		DCAFCE0A210727C900C17E2B /* S2TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCE09210727C900C17E2B /* S2TVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45C197D845FFD0B1D52A316B /* Pods-Speak2Translate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speak2Translate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Speak2Translate/Pods-Speak2Translate.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A93D8EAD4AF8D2DBF2D313 /* Pods_Speak2Translate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speak2Translate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAFCDE2210722A300C17E2B /* Speak2Translate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speak2Translate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAFCDE5210722A300C17E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCAFCDE7210722A300C17E2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCAFCDEA210722A300C17E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCAFCDEC210722AA00C17E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAFCDEF210722AA00C17E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCAFCDF1210722AA00C17E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAFCDFA2107240E00C17E2B /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		DCAFCDFC2107242D00C17E2B /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		DCAFCDFE2107250900C17E2B /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		DCAFCE002107252900C17E2B /* TranslationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationModel.swift; sourceTree = "<group>"; };
+		DCAFCE032107262800C17E2B /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		DCAFCE052107272100C17E2B /* InputLanguageTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLanguageTVC.swift; sourceTree = "<group>"; };
+		DCAFCE072107276400C17E2B /* OutputLanguageTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputLanguageTVC.swift; sourceTree = "<group>"; };
+		DCAFCE09210727C900C17E2B /* S2TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2TVC.swift; sourceTree = "<group>"; };
+		F97F21D6514E0B82AB433DD8 /* Pods-Speak2Translate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speak2Translate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Speak2Translate/Pods-Speak2Translate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625C7BF4074B4EB477B999D3 /* Pods_Speak2Translate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80A70EE16A179A67436B856E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A93D8EAD4AF8D2DBF2D313 /* Pods_Speak2Translate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B405A3E3B399A4263BC9FF0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45C197D845FFD0B1D52A316B /* Pods-Speak2Translate.debug.xcconfig */,
+				F97F21D6514E0B82AB433DD8 /* Pods-Speak2Translate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DCAFCDD9210722A300C17E2B = {
 			isa = PBXGroup;
 			children = (
 				DCAFCDE4210722A300C17E2B /* Speak2Translate */,
 				DCAFCDE3210722A300C17E2B /* Products */,
+				B405A3E3B399A4263BC9FF0A /* Pods */,
+				80A70EE16A179A67436B856E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,53 @@
 		DCAFCDE4210722A300C17E2B /* Speak2Translate */ = {
 			isa = PBXGroup;
 			children = (
-				DCAFCDE5210722A300C17E2B /* AppDelegate.swift */,
-				DCAFCDE7210722A300C17E2B /* ViewController.swift */,
-				DCAFCDE9210722A300C17E2B /* Main.storyboard */,
+				DCAFCE022107261B00C17E2B /* Supporting Files */,
+				DCAFCDF92107239D00C17E2B /* Model */,
+				DCAFCDF82107239800C17E2B /* Controller */,
+				DCAFCDF72107239200C17E2B /* View */,
 				DCAFCDEC210722AA00C17E2B /* Assets.xcassets */,
 				DCAFCDEE210722AA00C17E2B /* LaunchScreen.storyboard */,
 				DCAFCDF1210722AA00C17E2B /* Info.plist */,
 			);
 			path = Speak2Translate;
+			sourceTree = "<group>";
+		};
+		DCAFCDF72107239200C17E2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCAFCDE9210722A300C17E2B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCAFCDF82107239800C17E2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCAFCDE5210722A300C17E2B /* AppDelegate.swift */,
+				DCAFCE052107272100C17E2B /* InputLanguageTVC.swift */,
+				DCAFCE072107276400C17E2B /* OutputLanguageTVC.swift */,
+				DCAFCE09210727C900C17E2B /* S2TVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCAFCDF92107239D00C17E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCAFCDFA2107240E00C17E2B /* Translator.swift */,
+				DCAFCDFC2107242D00C17E2B /* StringExtensions.swift */,
+				DCAFCDFE2107250900C17E2B /* Language.swift */,
+				DCAFCE002107252900C17E2B /* TranslationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCAFCE022107261B00C17E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAFCE032107262800C17E2B /* Secrets.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCAFCDF4210722AA00C17E2B /* Build configuration list for PBXNativeTarget "Speak2Translate" */;
 			buildPhases = (
+				95A782E53EBDEB557C3FA453 /* [CP] Check Pods Manifest.lock */,
 				DCAFCDDE210722A300C17E2B /* Sources */,
 				DCAFCDDF210722A300C17E2B /* Frameworks */,
 				DCAFCDE0210722A300C17E2B /* Resources */,
+				92CAF8EFF10CACC812460096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +209,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92CAF8EFF10CACC812460096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Speak2Translate/Pods-Speak2Translate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Speak2Translate/Pods-Speak2Translate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A782E53EBDEB557C3FA453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Speak2Translate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCAFCDDE210722A300C17E2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCAFCDE8210722A300C17E2B /* ViewController.swift in Sources */,
+				DCAFCDFD2107242D00C17E2B /* StringExtensions.swift in Sources */,
+				DCAFCDFF2107250900C17E2B /* Language.swift in Sources */,
+				DCAFCE062107272100C17E2B /* InputLanguageTVC.swift in Sources */,
+				DCAFCE042107262800C17E2B /* Secrets.swift in Sources */,
+				DCAFCDFB2107240E00C17E2B /* Translator.swift in Sources */,
+				DCAFCE082107276400C17E2B /* OutputLanguageTVC.swift in Sources */,
 				DCAFCDE6210722A300C17E2B /* AppDelegate.swift in Sources */,
+				DCAFCE0A210727C900C17E2B /* S2TVC.swift in Sources */,
+				DCAFCE012107252900C17E2B /* TranslationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +403,13 @@
 		};
 		DCAFCDF5210722AA00C17E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C197D845FFD0B1D52A316B /* Pods-Speak2Translate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDWS59K784;
 				INFOPLIST_FILE = Speak2Translate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,17 +417,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AS.Speak2Translate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DCAFCDF6210722AA00C17E2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97F21D6514E0B82AB433DD8 /* Pods-Speak2Translate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDWS59K784;
 				INFOPLIST_FILE = Speak2Translate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AS.Speak2Translate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
